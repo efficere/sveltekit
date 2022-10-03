@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "Muli";
+    src: url("/fonts/muli.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Panton";
+    src: url("/fonts/panton_bold.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: bold;
+}
+@font-face{
+    font-family: "Panton";
+    src: url("/fonts/panton_lightcaps.otf") format("opentype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face{
+    font-family: "Century Schoolbook";
+    src: url("/fonts/century_schoolbook-italic.ttf") format("truetype");
+    font-display: swap;
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face{
+    font-family: "Century Schoolbook";
+    src: url("/fonts/century_schoolbook.ttf") format("truetype");
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+}
+
+button{
+    @apply shadow;
+}
+
+button.btn-primary{
+    @apply bg-orange-400 border-orange-400 font-panton font-bold normal-case mt-5 text-xl h-20 px-7 rounded-3xl;
+}

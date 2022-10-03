@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       height:{
         '600': '37.5rem',
+      },
+      fontFamily:{
+        'muli': ['Muli'],
+        'panton': ['Panton'],
+        'centurySchoolbook': ['"Century Schoolbook"', 'serif'],
       }
     },
     maxWidth: {
