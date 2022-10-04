@@ -1,25 +1,14 @@
 <script>
-    import WrapGd from '$lib/components/wrappers/wrap-grid.svelte';
-    import WrapContent from './wrappers/wrap-content.svelte';
-
     export let tituloAccordion = "";
-    export let tipoContainerAccordion = "";
-    export let gapWrapContent="";
+    export let classes="";
 </script>
 
-<details class="text-black">
+<details class="text-black {classes}">
     <summary class="pl-5 py-2 font-panton font-light border-2 border-black/10 hover:cursor-pointer">{tituloAccordion}</summary>
-    <div class="p-7 border-2 border-orange-400 border-t-0 rounded-b-xl">
-        {#if tipoContainerAccordion == "grid"}
-        <WrapGd>
+    <div class="accordion_content">
+        <slot name="container">
             <slot></slot>
-        </WrapGd>
-        {/if}
-        {#if tipoContainerAccordion == "block"}
-        <WrapContent {gapWrapContent}>
-            <slot></slot>
-        </WrapContent>
-        {/if}
+        </slot>
     </div>
 </details>
 
@@ -33,5 +22,8 @@
 
     details[open] summary{
         @apply border-orange-400 border-b-0	rounded-t-xl text-white bg-[#083791];
+    }
+    details[open] .accordion_content{
+        @apply p-7 border-2 border-orange-400 border-t-0 rounded-b-xl;
     }
 </style>

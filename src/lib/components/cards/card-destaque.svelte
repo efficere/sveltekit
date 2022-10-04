@@ -1,19 +1,19 @@
 <script>
-    export let shdwColorCard = "";
-    export let borderColorCard = "";
-    export let boxShdwCard = "";
+    // Card para destaques - v0.0.1
+    // Uso de ícone com texto (título e/ou descrição) lado a lado e bloco em telas menores.
+    export let classes = "";
+    export let titleCard = "";
+    export let descCard = "";
+    export let src = "";
 </script>
 
-<div class="flex flex-wrap h-max gap-5 items-center justify-center min-w-[17rem] rounded-3xl border-r-2 border-t-2 border-{borderColorCard} shadow-{shdwColorCard} shadow-card_{boxShdwCard}">
-    <div class="icone">
-        <img src="https://newlifeeducacao.com.br/wp-content/themes/nle-v1/assets/img/ilustracoes/icons/icon-missao.webp"
-            alt="Ícone ilustrando uma missão">
+<div class="flex flex-wrap h-max gap-5 items-center justify-center min-w-208 rounded-3xl border-r-2 border-t-2 w-full lg:w-4/5 p-2 sm:p-5 {classes}">
+    <div class="flex justify-center lg:w-1/5">
+        <img {src} alt="Ícone" class="w-24">
     </div>
-    <div class="texto">
-        <h2 class="nle-title">Missão</h2>
-        <p class="nle-text">Formar pessoas de todas as idades para atuarem nas mais diversas áreas. Estimular o
-            desenvolvimento do caráter e da personalidade do aluno assim como atributos sociais e de convivência.
-        </p>
+    <div class="lg:w-9/12">
+        <h2 class="text-black font-panton font-light">{@html titleCard}</h2>
+        <p class="text-black font-centurySchoolbook leading-relaxed">{@html descCard}</p>
     </div>
 </div>
 

@@ -6,6 +6,10 @@ module.exports = {
       height:{
         '600': '37.5rem',
       },
+      minWidth:{
+        '272':'17rem',
+        '208':'13rem',
+      },
       fontFamily:{
         'muli': ['Muli'],
         'panton': ['Panton'],
@@ -20,11 +24,11 @@ module.exports = {
         'vermelho1':'#ea1a3b',
         'vermelho2':'#ad2038',
         'laranja':'#ff8e32',
-        'branco3':'#e1e4e9'
+        'branco3':'#e1e4e9',
       },
       boxShadow:{
-        'card_':'-0.7rem 0.7rem 0rem',
-        'card_destaque':'-0.7rem 0.7rem 0rem, 0.7rem -0.7rem 0rem'
+        'card':'-0.7rem 0.7rem 0rem',
+        'card--destaque':'-0.7rem 0.7rem 0rem, 0.7rem -0.7rem 0rem',
       }
     },
     maxWidth: {
@@ -35,4 +39,7 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+  daisyui:{
+    themes: false,
+  },
 }
