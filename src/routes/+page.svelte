@@ -16,6 +16,7 @@
 <svelte:head>
     <title>Seja bem vindo(a) à New Life Educação</title>
     <meta name="description" content="Site da New Life Educação, escola de ensino técnico, profissionalizante e empreendedor. Cursos de informática, tecnologia, mercado de trabalho, profissionalizantes e técnicos. Envie seu currículo e concorra a diversas vagas de trabalho.">
+    <meta property="og:image" content="https://media.graphassets.com/5H6iCDp7SKS19qB95Ugg" />
 </svelte:head>
 
 <main class="flex flex-col gap-20">
