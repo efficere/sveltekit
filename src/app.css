@@ -4,35 +4,35 @@
 
 @font-face{
     font-family: "Muli";
-    src: url("/fonts/muli.ttf") format("truetype");
+    src: url("/fonts/muli.woff2") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
     font-family: "Panton";
-    src: url("/fonts/panton_bold.otf") format("opentype");
+    src: url("/fonts/panton_bold.woff2") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: bold;
 }
 @font-face{
     font-family: "Panton";
-    src: url("/fonts/panton_lightcaps.otf") format("opentype");
+    src: url("/fonts/panton_lightcaps.woff2") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: 300;
 }
 @font-face{
     font-family: "Century Schoolbook";
-    src: url("/fonts/century_schoolbook-italic.ttf") format("truetype");
+    src: url("/fonts/century_schoolbook-italic.woff2") format("woff2");
     font-display: swap;
     font-style: italic;
     font-weight: normal;
 }
 @font-face{
     font-family: "Century Schoolbook";
-    src: url("/fonts/century_schoolbook.ttf") format("truetype");
+    src: url("/fonts/century_schoolbook.woff2") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: normal;
