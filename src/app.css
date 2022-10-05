@@ -4,35 +4,35 @@
 
 @font-face{
     font-family: "Muli";
-    src: url("/fonts/muli.woff2") format("woff2");
+    src: url("https://media.graphassets.com/4k7QK3oTC27G6JyGVlMw") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: normal;
 }
 @font-face{
     font-family: "Panton";
-    src: url("/fonts/panton_bold.woff2") format("woff2");
+    src: url("https://media.graphassets.com/ZA9M03mSlmn3wc6SYIxW") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: bold;
 }
 @font-face{
     font-family: "Panton";
-    src: url("/fonts/panton_lightcaps.woff2") format("woff2");
+    src: url("https://media.graphassets.com/KMmSQDMrQjiYiFB7hu2G") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: 300;
 }
 @font-face{
     font-family: "Century Schoolbook";
-    src: url("/fonts/century_schoolbook-italic.woff2") format("woff2");
+    src: url("https://media.graphassets.com/8C1ggdyITdeldfUebG3Q") format("woff2");
     font-display: swap;
     font-style: italic;
     font-weight: normal;
 }
 @font-face{
     font-family: "Century Schoolbook";
-    src: url("/fonts/century_schoolbook.woff2") format("woff2");
+    src: url("https://media.graphassets.com/NR2HSw5UQEeSQBvOWlx1") format("woff2");
     font-display: swap;
     font-style: normal;
     font-weight: normal;
