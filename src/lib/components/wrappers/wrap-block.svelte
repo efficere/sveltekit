@@ -2,6 +2,6 @@
     export let classes = "";
 </script>
 
-<div class="flex flex-col justify-center text-white {classes}">
+<div class="flex flex-col justify-center {classes}">
     <slot></slot>
 </div>
