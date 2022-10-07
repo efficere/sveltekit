@@ -228,7 +228,7 @@
             <p class="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat totam culpa quidem sed, facere obcaecati fugit deleniti asperiores. Voluptate eligendi dignissimos saepe fuga tempore ipsum possimus a hic reiciendis praesentium soluta similique nostrum, est, nulla itaque ratione eum! Quae, maiores! Consectetur consequatur minus laudantium voluptates, asperiores nihil vel laboriosam perferendis.</p>
         </div>
         <div class="flex justify-center items-center lg:justify-end w-full lg:w-2/5">
-            <Form classes="bg-[url('https://media.graphassets.com/sINvaOFaQGaC0uLgh8Tp')] text-white gap-5 lg:mt-[-6.25rem] border-t-4 border-laranja w-full md:max-w-[25rem]" name="Registro Página Mercado de Trabalho">
+            <Form classes="bg-[url('https://media.graphassets.com/sINvaOFaQGaC0uLgh8Tp')] text-white gap-5 lg:mt-[-6.25rem] border-t-4 border-laranja w-full md:max-w-[25rem]" name="registro_mercado_trabalho">
                 <div class="flex flex-col items-center text-center">
                     <h4 class="subtitulo">Receba mais informações</h4>
                     <h3 class="titulo-elemento">Preencha os dados abaixo</h3>
