@@ -9,7 +9,6 @@
     import Button from '$lib/components/elements/button.svelte';
     import Accordion from '$lib/components/elements/accordion.svelte';
 	import WrapGrid from '$lib/components/wrappers/wrap-grid.svelte';
-	import SecBgImg from '$lib/components/sections/sec-bg_img.svelte';
 	import WrapFlex from '$lib/components/wrappers/wrap-flex.svelte';
 	import Form from '$lib/components/form.svelte';
 	import Label from '$lib/components/elements/label.svelte';
