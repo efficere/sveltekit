@@ -52,7 +52,7 @@ h1{
     @apply font-panton font-bold text-3xl xl:text-6xl;
 }
 .titulo{
-    @apply font-panton font-bold text-2xl xl:text-5xl;
+    @apply font-panton font-bold text-3xl lg:text-4xl xl:text-5xl;
 }
 .titulo-elemento{
     @apply font-panton font-bold text-2xl xl:text-4xl

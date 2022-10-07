@@ -2,11 +2,14 @@
 	// Card - v0.0.1
 	// Possibilita a utilização de uma imagem background ou uma imagem normal junto a um título com ou sem descrição
 	export let srcBgCard = "";
+	export let srcImageCard = "";
+
 	export let titleCard = "";
 	export let descCard = "";
-	export let srcImageCard = "";
 	export let titleCardClasses = "";
 	export let descCardClasses = "";
+
+	export let href="";
 </script>
 
 <div class="flex flex-col items-center justify-center rounded-2xl min-w-208 max-w-[24rem] w-full min-h-[24rem] h-full max-h-max bg-base-100 shadow">

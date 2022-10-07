@@ -23,10 +23,10 @@
 
 <main class="flex flex-col gap-20">
     <!-- Hero -->
-    <WrapBlock classes="justify-center bg-[url('https://media.graphassets.com/Bw2aguyyQlqjFezaPiAD')] shadow-md bg-cover bg-left xl:bg-right h-[28.125rem] xl:h-600 text-white gap-1 bg-no-repeat rounded-xl p-5 min-w-272" type="section">
-        <h2 class="subtitulo">Aprimore sua vida FInanceira</h2>
-        <h1 class="xl:w-6/12">Profissionalize-se, conheça nossos cursos para o mercado de trabalho</h1>
-        <p class="descricao">A oportunidade está em suas mãos, pegue e cresça!</p>
+    <WrapBlock classes="justify-center bg-[url('https://media.graphassets.com/Bw2aguyyQlqjFezaPiAD')] shadow-md shadow-black/50 bg-cover bg-left xl:bg-right h-[28.125rem] xl:h-600 text-white gap-1 xl:gap-3 bg-no-repeat rounded-xl p-5 min-w-272" type="section">
+        <h2 class="subtitulo xl:text-xl">Aprimore sua vida FInanceira</h2>
+        <h1 class="lg:w-6/12">Profissionalize-se, conheça nossos cursos para o mercado de trabalho</h1>
+        <p class="descricao xl:text-xl">A oportunidade está em suas mãos, pegue e cresça!</p>
         <Button
             classes="btn-primary mt-5"
             href="https://newlifeeducacao.com.br/cursos"
@@ -36,16 +36,40 @@
     
     <!-- Cursos em destaque -->
     <WrapGd classes="min-w-272 md:grid-cols-2 xl:grid-cols-3" type="section">
-        <Card srcBgCard="https://media.graphassets.com/nM6lJbAlRhGfYRW4zq2H" titleCard="Profissões de supermercado"/>
-        <Card srcBgCard="https://media.graphassets.com/o3kDTJKLTjOlTC8N6QuF" titleCard="Montagem e manutenção de computadores e redes"/>
-        <Card srcBgCard="https://media.graphassets.com/ndn759r3T1W0GcXjflZO" titleCard="Consultor comercial"/>
-        <Card srcBgCard="https://media.graphassets.com/ZTiy5KP8R6a6QZSID16y" titleCard="Auxiliar de farmácia"/>
-        <Card srcBgCard="https://media.graphassets.com/5GlvrjX1Qc63KFoe7cm4" titleCard="Recepção hoteleira"/>
-        <Card srcBgCard="https://media.graphassets.com/Hk0beJXORYGghVbUmPTy" titleCard="Gestão empresarial"/>
+        <Card
+            srcBgCard="https://media.graphassets.com/nM6lJbAlRhGfYRW4zq2H"
+            titleCardClasses="font-muli font-bold"
+            titleCard="<a href='https://newlifeeducacao.com.br/cursos/profissoes-de-supermercado/'>Profissões de supermercado</a>"
+        />
+        <Card
+            srcBgCard="https://media.graphassets.com/o3kDTJKLTjOlTC8N6QuF"
+            titleCard="<a href='https://newlifeeducacao.com.br/cursos/hardware-e-redes/'>Montagem e manutenção de computadores e redes</a>"
+            titleCardClasses="font-muli font-bold"
+        />
+        <Card
+            srcBgCard="https://media.graphassets.com/ndn759r3T1W0GcXjflZO"
+            titleCard="<a href='https://newlifeeducacao.com.br/cursos/consultor-comercial/'>Consultor comercial</a>"
+            titleCardClasses="font-muli font-bold"
+        />
+        <Card
+            srcBgCard="https://media.graphassets.com/ZTiy5KP8R6a6QZSID16y"
+            titleCard="<a href='https://newlifeeducacao.com.br/cursos/auxiliar-de-farmacia/'>Auxiliar de farmácia</a>"
+            titleCardClasses="font-muli font-bold"
+        />
+        <Card
+            srcBgCard="https://media.graphassets.com/5GlvrjX1Qc63KFoe7cm4"
+            titleCard="<a href='https://newlifeeducacao.com.br/cursos/recepcao-hoteleira/'>Recepção hoteleira</a>"
+            titleCardClasses="font-muli font-bold"
+        />
+        <Card
+            srcBgCard="https://media.graphassets.com/Hk0beJXORYGghVbUmPTy"
+            titleCard="<a href='https://newlifeeducacao.com.br/cursos/gestao-empresarial/'>Gestão empresarial</a>"
+            titleCardClasses="font-muli font-bold"
+        />
     </WrapGd>
 
     <!-- Trabalhe conosco -->
-    <WrapBlock classes="justify-center bg-[url('https://media.graphassets.com/p5zs4XB2SVuW1dylPkYV')] shadow-md bg-cover h-[28.125rem] xl:h-600 text-white bg-no-repeat rounded-xl p-5 min-w-272" type="section">
+    <WrapBlock classes="justify-center bg-[url('https://media.graphassets.com/p5zs4XB2SVuW1dylPkYV')] shadow-md shadow-black/50 bg-cover h-[28.125rem] xl:h-600 text-white bg-no-repeat rounded-xl p-5 min-w-272" type="section">
         <h2 class="titulo w-11/12">Somos uma empresa profissional com mais de 20 anos de experiência no mercado</h2>
         <Button
             classes="btn-primary mt-5"
@@ -57,7 +81,7 @@
     <!-- Institucional -->
     <WrapBlock classes="justify-center text-white min-w-272 gap-5" type="section">
         <div>
-            <h3 class="text-black subtitulo">Sobre nós</h3>
+            <h3 class="text-black subtitulo text-xl leading-loose">Sobre nós</h3>
             <p class="text-black texto">A New Life Educação nasceu em 1999. Sob a ótica do Grupo New Life, iniciou suas atividades ofertando cursos de qualificação profissional. Em 2012, a Escola Técnica New Life foi criada e com ela o início de cursos técnicos, fortalecendo o compromisso contínuo com uma educação de qualidade e focada no mercado de trabalho. No ano de 2022 a criação de uma metodologia própria e inovadora (chamada Liww for Life), deu início a uma nova era dentro da New Life Educação: <a href="https://newlifeeducacao.com.br/metodologia" class="link">ensino empreendedor focado no desenvolvimento humano</a>. Atualmente, somos escola profissionalizante, técnica e empreendedora. Conheça abaixo alguns de nossos prêmios e confira os nossos valores e missão como instituição educacional. Trilhe o melhor caminho e venha para o novo!</p>
         </div>
         <WrapBlock classes="text-white gap-2">
@@ -175,7 +199,7 @@
                 descCard='" Como é gratificante após duas décadas ser reconhecido internacionalmente com a metodologia de ensino que proporciona a educação empreendedora em nossos alunos. Diante disso, é que nasceu a New Life Educação, com o pensamento de revolucionar o mindset dos nossos alunos. A nossa missão é fazer com que a metodologia dentro da sala de aula seja valiosa para toda a vida. "'
             />
         </WrapGd>
-        <video src="" class="w-full lg:w-2/4 min-w-[20rem] sm:min-w-[45rem] rounded-2xl shadow-md" controls></video>
+        <video src="" class="w-full md:w-2/4 min-w-[20rem] sm:min-w-[45rem] rounded-2xl shadow-md" controls></video>
     </WrapBlock>
 
     <!-- FAQ -->
@@ -214,21 +238,21 @@
     </WrapBlock>
 
     <!-- Blog -->
-    <WrapBlock type="section" classes="justify-center items-center gap-3 h-[25rem]">
+    <WrapBlock type="section" classes="justify-center items-center gap-3 h-400">
         <h3 class="subtitulo">Fique por dentro de todas as novidades!</h3>
         <h2 class="titulo">Acesse nosso blog</h2>
         <Button classes="btn-primary" tituloBotao="Clique aqui"/>
     </WrapBlock>
 
     <!-- Registro -->
-    <WrapFlex classes="bg-[url('https://media.graphassets.com/3cjRuzuSPCxhokhu7g34')] bg-left lg:bg-center bg-cover gap-3 justify-center items-center bg-no-repeat rounded-xl p-5 min-w-272">
+    <WrapFlex classes="bg-[url('https://media.graphassets.com/3cjRuzuSPCxhokhu7g34')] bg-left lg:bg-center bg-cover gap-3 justify-center items-center bg-no-repeat rounded-xl p-5 min-w-272 shadow-md shadow-black/50">
         <div class="text-white w-full lg:w-2/4">
             <h3 class="subtitulo">O futuro em suas mãos</h3>
             <h2 class="titulo">Aprimore seu currículo e alavanque sua vida financeira</h2>
             <p class="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat totam culpa quidem sed, facere obcaecati fugit deleniti asperiores. Voluptate eligendi dignissimos saepe fuga tempore ipsum possimus a hic reiciendis praesentium soluta similique nostrum, est, nulla itaque ratione eum! Quae, maiores! Consectetur consequatur minus laudantium voluptates, asperiores nihil vel laboriosam perferendis.</p>
         </div>
         <div class="flex justify-center items-center lg:justify-end w-full lg:w-2/5">
-            <Form classes="bg-[url('https://media.graphassets.com/sINvaOFaQGaC0uLgh8Tp')] text-white gap-5 lg:mt-[-6.25rem] border-t-4 border-laranja w-full md:max-w-[25rem]" name="registro_mercado_trabalho">
+            <Form classes="bg-[url('https://media.graphassets.com/sINvaOFaQGaC0uLgh8Tp')] text-white gap-5 lg:mt-[-6.25rem] lg:shadow-lg lg:shadow-black/40 border-t-4 border-laranja w-full md:max-w-[25rem]" name="registro_mercado_trabalho">
                 <div class="flex flex-col items-center text-center">
                     <h4 class="subtitulo">Receba mais informações</h4>
                     <h3 class="titulo-elemento">Preencha os dados abaixo</h3>

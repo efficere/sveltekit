@@ -12,7 +12,7 @@
 <div class="flex flex-wrap h-max gap-5 items-center justify-center min-w-272 rounded-3xl w-4/5 p-5">
     <div class="text-center">
         <h3 class="font-panton font-light">{cargo}</h3>
-        <img {src} alt="Ícone" class="rounded-xl shadow">
+        <img {src} alt="Ícone" class="rounded-xl shadow shadow-black/40">
     </div>
     <div class="text-center">
         <h2 class="font-panton font-bold {titleClasses}">{titleCard}</h2>

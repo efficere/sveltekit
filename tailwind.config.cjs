@@ -4,11 +4,16 @@ module.exports = {
   theme: {
     extend: {
       height:{
+        '200px':'12.5rem',
+        '400':'25rem',
+        '500':'31.25rem',
         '600': '37.5rem',
       },
       minWidth:{
-        '272':'17rem',
+        '100': '6.25rem',
+        '200': '12.5rem',
         '208':'13rem',
+        '272':'17rem',
       },
       fontFamily:{
         'muli': ['Muli'],
@@ -29,16 +34,21 @@ module.exports = {
       boxShadow:{
         'card':'-0.7rem 0.7rem 0rem',
         'card--destaque':'-0.7rem 0.7rem 0rem, 0.7rem -0.7rem 0rem',
+        'footer':'0 -0.3rem 1rem'
       },
       fontSize: {
         'smaller':'0.625rem'
-      }
-    },
-    maxWidth: {
-      '200': '12.5rem',
-    },
-    minWidth:{
-      '100': '6.25rem',
+      },
+      maxHeight:{
+        '200': '12.5rem',
+      },
+      minHeight:{
+        '100': '6.25rem',
+        '200': '12.5rem'
+      },
+      maxWidth:{
+        '200': '12.5rem',
+      },
     },
   },
   plugins: [require("daisyui")],
