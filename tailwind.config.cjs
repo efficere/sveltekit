@@ -29,6 +29,9 @@ module.exports = {
       boxShadow:{
         'card':'-0.7rem 0.7rem 0rem',
         'card--destaque':'-0.7rem 0.7rem 0rem, 0.7rem -0.7rem 0rem',
+      },
+      fontSize: {
+        'smaller':'0.625rem'
       }
     },
     maxWidth: {

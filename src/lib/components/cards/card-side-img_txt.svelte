@@ -15,7 +15,7 @@
     </div>
     <div class="lg:w-9/12">
         <h2 class="text-black font-panton font-light">{@html titleCard}</h2>
-        <p class="text-black font-centurySchoolbook leading-relaxed {descClasses}">{@html descCard}</p>
+        <p class="text-black texto {descClasses}">{@html descCard}</p>
     </div>
 </div>
 

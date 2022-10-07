@@ -1,6 +1,6 @@
 <script>
 	import '../app.css';
-    import Header from '$lib/components/header.svelte';
+    import Header from '$lib/components/sections/header.svelte';
 </script>
 
 <div class="container mx-auto px-5 md:px-0">
