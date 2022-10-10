@@ -1,12 +1,18 @@
 <script>
     // Card para destaques - v0.0.1
     // Uso de ícone com texto (título e/ou descrição) lado a lado e bloco em telas menores.
+
+    // props que lidam com o conteúdo textual
+    export let titleCard = "";
+    export let descCard = "";
+
+    // prop que lida com a fonte do ícone/imagem
+    export let src = "";
+
+    // props que lidam com as classes CSS adicionais
     export let classes = "";
     export let imgClasses = "";
     export let descClasses = "";
-    export let titleCard = "";
-    export let descCard = "";
-    export let src = "";
 </script>
 
 <div class="flex flex-wrap h-max gap-5 items-center justify-center min-w-208 w-full p-2 sm:p-5 {classes}">

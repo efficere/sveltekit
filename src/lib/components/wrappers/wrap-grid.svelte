@@ -1,5 +1,10 @@
 <script>
+    // Wrapper Grid, definição de colunas de forma responsiva - v0.0.1
+
+    // prop que lida com as classes CSS adicionais
     export let classes="";
+
+    // prop que lida com o tipo de wrapper
     export let type="";
 </script>
 

@@ -1,10 +1,16 @@
 <script>
-    // Card para destaques - v0.0.1
-    // Uso de ícone com texto (título e/ou descrição) lado a lado e bloco em telas menores.
+    // Card para perfil com foto - v0.0.1
+    // Uso de foto com subtitulo e descrição (titulo e texto) abaixo.
+
+    // props que lidam com o conteúdo textual
     export let titleCard = "";
     export let descCard = "";
     export let cargo="";
+
+    // prop que lida com a fonte da foto
     export let src = "";
+
+    // props que lidam com as classes CSS adicionais
     export let titleClasses = "";
     export let descClasses = "";
 </script>

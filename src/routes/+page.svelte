@@ -30,8 +30,7 @@
         <Button
             classes="btn-primary mt-5"
             href="https://newlifeeducacao.com.br/cursos"
-            tituloBotao="Conheça nossos cursos"
-        />
+        >Conheça nossos cursos</Button>
     </WrapBlock>
     
     <!-- Cursos em destaque -->
@@ -74,8 +73,7 @@
         <Button
             classes="btn-primary mt-5"
             href="https://newlifeeducacao.com.br/tabalhe-conosco"
-            tituloBotao="Trabalhe conosco"
-        />
+        >Trabalhe conosco</Button>
     </WrapBlock>
     
     <!-- Institucional -->
@@ -173,8 +171,7 @@
         <Button
             classes="btn-primary mt-5"
             href="https://newlifeeducacao.com.br/tabalhe-conosco"
-            tituloBotao="Faça parte do nosso time!"
-        />
+        >Faça parte do nosso time!</Button>
     </WrapBlock>
 
     <!-- Mentores -->
@@ -206,10 +203,10 @@
     <WrapBlock
         classes="bg-cover bg-center bg-[url('https://media.graphassets.com/jbITNnuYRwWU8XBsaHR1')] lg:bg-[url('https://media.graphassets.com/MNvfwXaaQSa5iiadRss0')] lg:bg-top xl:min-h-[45rem] xl:bg-left-top justify-start items-center lg:items-end lg:pt-0 bg-no-repeat rounded-xl p-5 min-w-272" type="section"    
     >
-        <WrapBlock classes="w-full lg:w-5/12 gap-5">
+        <WrapBlock classes="w-full lg:w-5/12 gap-8">
             <div class="h-[10%]">
-                <h3 class="subtitulo text-azul5">Tire suas dúvidas</h3>
-                <h2 class="titulo text-azul5">Perguntas Frequentes</h2>
+                <h3 class="subtitulo text-cor1_4">Tire suas dúvidas</h3>
+                <h2 class="titulo text-cor1_4">Perguntas Frequentes</h2>
             </div>
             <div class="flex flex-col gap-1 max-h-[37rem] lg:max-w-[32.25rem] overflow-x-auto pr-5 h-[90%]">
                 <Accordion tituloAccordion="Os cursos são em EAD?" sumClasses="px-3 only-blur" accContentClasses="content-blur">
@@ -241,7 +238,7 @@
     <WrapBlock type="section" classes="justify-center items-center gap-3 h-400">
         <h3 class="subtitulo">Fique por dentro de todas as novidades!</h3>
         <h2 class="titulo">Acesse nosso blog</h2>
-        <Button classes="btn-primary" tituloBotao="Clique aqui"/>
+        <Button href="https://newlifeeducacao.com.br/blog" classes="btn-primary">Clique aqui</Button>
     </WrapBlock>
 
     <!-- Registro -->
@@ -252,7 +249,7 @@
             <p class="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat totam culpa quidem sed, facere obcaecati fugit deleniti asperiores. Voluptate eligendi dignissimos saepe fuga tempore ipsum possimus a hic reiciendis praesentium soluta similique nostrum, est, nulla itaque ratione eum! Quae, maiores! Consectetur consequatur minus laudantium voluptates, asperiores nihil vel laboriosam perferendis.</p>
         </div>
         <div class="flex justify-center items-center lg:justify-end w-full lg:w-2/5">
-            <Form classes="bg-[url('https://media.graphassets.com/sINvaOFaQGaC0uLgh8Tp')] text-white gap-5 lg:mt-[-6.25rem] lg:shadow-lg lg:shadow-black/40 border-t-4 border-laranja w-full md:max-w-[25rem]" name="registro_mercado_trabalho">
+            <Form classes="border-t-laranja bg-[url('https://media.graphassets.com/sINvaOFaQGaC0uLgh8Tp')] text-white gap-5 lg:mt-[-6.25rem] lg:shadow-lg lg:shadow-black/40 border-t-4 border-laranja w-full md:max-w-[25rem]">
                 <div class="flex flex-col items-center text-center">
                     <h4 class="subtitulo">Receba mais informações</h4>
                     <h3 class="titulo-elemento">Preencha os dados abaixo</h3>
@@ -273,9 +270,8 @@
                 </fieldset>
                 <Button
                     classes="btn-primary"
-                    tituloBotao="Quero mais informações"
                     type="submit"
-                />
+                >Quero mais informações</Button>
                 <p class="font-muli text-smaller text-right">*Ao enviar seus dados você concorda com a utilização dos mesmos <a href="https://newlifeeducacao.com.br/documentos-legais/" class="link underline-offset-2">mediante os termos da LGPD</a> para contato e publicidade.</p>
             </Form>
         </div>

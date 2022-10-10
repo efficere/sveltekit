@@ -9,33 +9,32 @@
 <MenuDrawer>
     <div slot="itens-menu" style="display:contents">
         <MenuItem
-            classes="font-panton font-bold text-azul5 text-xl"
+            classes="font-panton font-bold text-cor1_4 text-xl"
             href="https://newlifeeducacao.com.br/cursos"
-            item="Cursos"
-        />
+        >Cursos</MenuItem>
         <MenuItem
-            classes="font-panton font-bold text-azul5 text-xl"
+            classes="font-panton font-bold text-cor1_4 text-xl"
             href="https://newlifeeducacao.com.br/institucional"
-            item="Institucional"
-        />
+        >Institucional</MenuItem>
         <MenuItem
-            classes="font-panton font-bold text-azul5 text-xl"
+            classes="font-panton font-bold text-cor1_4 text-xl"
             href="https://newlifeeducacao.com.br/trabalhe-conosco"
-            item="Trabalhe Conosco"
-        />
+        >Trabalhe Conosco</MenuItem>
         <MenuItem
-            classes="font-panton font-bold text-azul5 text-xl"
+            classes="font-panton font-bold text-cor1_4 text-xl"
             href="https://newlifeeducacao.com.br/contato"
-            item="Contato"
-        /> 
+        >Contato</MenuItem>
     </div>
     <WrapBlock classes="container mx-auto px-5 md:px-0 gap-24" slot="conteudo">
         <slot />
-        <Footer classes="bg-azul2 rounded-t-xl text-white font-muli shadow-footer shadow-black/20">
+        <Footer
+            classes="bg-cor1_1 rounded-t-xl text-white font-muli shadow-footer shadow-black/20"
+            equipe="Time de Desenvolvimento de Sistemas"
+            srcLogoHolding="https://media.graphassets.com/ZMR3ojoTTgaPAh2xUN8H"
+        >
             <MenuItem
                 href="https://newlifeeducacao.com.br/documentos-legais"
-                item="Documentos legais"
-            />
+            >Documentos legais</MenuItem>
         </Footer>
     </WrapBlock>
 </MenuDrawer>
